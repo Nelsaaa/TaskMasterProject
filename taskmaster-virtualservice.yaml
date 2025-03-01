@@ -1,0 +1,25 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: taskmaster-route
+  namespace: istio-system
+spec:
+  gateways:
+    - taskmaster-gateway
+  hosts:
+    - "*"
+  http:
+    - match:
+        - uri:
+            prefix: "/tasks"
+      headers:
+        response:
+          set:
+            Access-Control-Allow-Origin: "*"
+            Access-Control-Allow-Methods: "GET, POST, PUT, DELETE, OPTIONS"
+            Access-Control-Allow-Headers: "Content-Type, Authorization"
+      route:
+        - destination:
+            host: taskmaster.default.svc.cluster.local
+            port:
+              number: 3002

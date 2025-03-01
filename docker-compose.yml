@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: taskmaster-backend
+    ports:
+      - "3002:3002"
+    environment:
+      - MONGO_URI=${MONGO_URI}  # Assurez-vous que MONGO_URI est défini dans .env
+    # backend n'a pas besoin de dépendre de frontend
+
+  frontend:
+    build:
+      context: ./taskmaster-frontend
+    container_name: taskmaster-frontend
+    ports:
+      - "3001:3001"
+    environment:
+      - REACT_APP_API_URL=http://backend:3002/tasks  # Backend API URL
+    depends_on:
+      - backend  # Le frontend dépend du backend pour démarrer
