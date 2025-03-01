@@ -64,7 +64,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 ---
 
 ## 📌 Auteur
-👤 **Yohann Yago**  
+👤 **Nelsa Yago et Insaf Lameche**  
 📧 Contact : [LinkedIn](https://www.linkedin.com/) *(ajoute ton lien si tu veux)*  
 
 ---
