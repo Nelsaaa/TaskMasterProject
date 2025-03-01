@@ -65,8 +65,8 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 ## 📌 Auteur
 👤 **Nelsa Yago et Insaf Lameche**  
-📧 Contact : [LinkedIn](https://www.linkedin.com/) *(ajoute ton lien si tu veux)*  
+
 
 ---
 
-Ce README est clair, professionnel et met l’accent sur **comment lancer rapidement le projet**. Dis-moi si tu veux ajouter ou modifier quelque chose ! 🚀🔥
+
