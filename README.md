@@ -1,4 +1,3 @@
-Voici un **README.md** bien structuré, clair et professionnel pour ton projet **TaskMaster**, mettant l’accent sur la façon de le lancer rapidement.
 
 ---
 
