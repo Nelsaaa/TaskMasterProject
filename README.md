@@ -34,7 +34,7 @@ TaskMaster/
 │── src/                      # Backend (Node.js, Express)
 │   ├── app.js                # Point d’entrée du serveur
 │   ├── routes/               # Routes API
-│   ├── models/               # Modèles MongoDB
+│   ├── models/              
 │── taskmaster-frontend/      # Frontend React.js
 │   ├── src/                  # Code source React
 │   ├── App.js                # Composant principal React
